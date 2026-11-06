@@ -1,9 +1,10 @@
-# SightPress newsletter
+# SightPress newsletter manager
 
-`sightpress/plugin-newsletter`: the official SightPress plugin for email
+`sightpress/plugin-newsletter-manager`: the official SightPress plugin for email
 newsletters. Licensed GPL-2.0-or-later.
 
-> **Status:** pre-M0.
+> **Status:** M0 scaffolding in place (manifest, bundle, quality gates, CI);
+> features arrive in milestone M12.
 
 It adds:
 
@@ -28,5 +29,4 @@ npx playwright test         # every manifest route, with axe-core
 ```
 
 Check out `sightpress/core` as a sibling and require it with
-`COMPOSER=composer.dev.json composer install` to run the test kernel. The full
-plugin specification is in `plugins.md` §1.1.
+`COMPOSER=composer.dev.json composer install` to run the test kernel.
